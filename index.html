@@ -56,7 +56,7 @@ tx.addEventListener("keyup", function(event) {
 
     // Open and begin reading.
     await port.open({
-      baudrate: baud.value
+      baudRate: baud.value
     });
 
     while (port.readable) {
